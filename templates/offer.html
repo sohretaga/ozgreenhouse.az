@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center py-5">
+            <h1 class="display-3 text-white mb-4 animated slideInDown">Təklif al</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="#">Əsas səhifə</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Təklif al</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Quote Start -->
+    <div class="container-fluid quote my-5 py-5" data-parallax="scroll" data-image-src="img/">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="bg-white rounded p-4 p-sm-5 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="display-5 text-center mb-5">Təklif Al</h1>
+                        <p class="fs-5 fw-bold text-primary">Torpaqsız Kənd Təsərrüfatı Müəssisəsi qurmaq üçün Təcrübəli və Peşəkar Şirkət Axtarırsınız? </p>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control bg-light border-0" id="gname" placeholder="Gurdian Name">
+                                    <label for="gname">Adınız</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control bg-light border-0" id="gmail" placeholder="Gurdian Email">
+                                    <label for="gmail">E-mail</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control bg-light border-0" id="cname" placeholder="Child Name">
+                                    <label for="cname">Telefon</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control bg-light border-0" id="cage" placeholder="Child Age">
+                                    <label for="cage">Yetişdiriləcək Məhsul</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control bg-light border-0" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Mesaj</label>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-primary py-3 px-4" type="submit">İndi təqdim edin</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12 wow fadeInUp" >
+                    <div class="">
+                        <h1 class="display-12 mb-12">İstehsal Miqdarları</h1>
+                        <div class="col-12 col-sm-6 col-lg-12">
+                            <div class=" ps-6">
+                                <i class="text-primary mb-5"></i>
+                                <h4 class="mb-4"></h4>
+                                <span> » 10 sot ərazidə minimum 11.500 ədəd ilə 34.500 arasında məhsul yetişdirmək olur.</span>
+                            </div>
+                            <div class=" ps-6">
+                                <i class="text-primary mb-5"></i>
+                                <h4 class="mb-4"></h4>
+                                <span> » Biznes və investisiya xərcləri nəzərə alınmaqla minimum 50 sot istixana salınmalıdır.
+                                </span>
+                            </div><div class=" ps-6">
+                                <i class="text-primary mb-5"></i>
+                                <h4 class="mb-4"></h4>
+                                <span> » Havalandırılmalı istixanada ildə təxminən 9 dəfə kahı yığılır.</span>
+                            </div>
+                            </div><div class=" ps-6">
+                            <i class="text-primary mb-5"></i>
+                            <h4 class="mb-4"></h4>
+                            <span> » 50 sot istixanada 517.500 ədəd kahı istehsal etmək olar.</span>
+                            </div>
+                            </div><div class=" ps-6">
+                                <i class="text-primary mb-5"></i>
+                                <h4 class="mb-4"></h4>
+                                <span> » 50 sotluq istixanada reyhan əkilən zaman əldə edilən məhsul miqdarı 1.552.500 ədəddir.</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+{% endblock content %}
